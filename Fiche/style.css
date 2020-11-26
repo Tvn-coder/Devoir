@@ -1,0 +1,45 @@
+* 
+{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body 
+{
+    margin: 0;
+    background: url(img/banner.jpg);
+}
+
+.fiche
+{
+    text-align: center;
+}
+
+h2
+{
+    color: white;
+}
+
+aside
+{
+    position: relative;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5)
+}
+
+aside label
+{
+    display: block;
+    height: 25px;
+    margin: 10px 0;
+    border-radius: 5px 5px;
+}
+
+.container
+{
+    padding: 10% 10%;
+}
